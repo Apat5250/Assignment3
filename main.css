@@ -1,0 +1,203 @@
+body, h1, h2, h3, p, ul, li, form {
+    margin: 10;
+    padding: 1;
+  }
+ 
+  h2 {
+    text-align: center;
+}
+form {
+  background: bisque;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: green;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  header a img {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+  }
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  header .logo {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    width: auto;
+  }
+  .main-header  {
+    text-align: left;
+
+  }
+  .main-header a {
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+  .main-header h1 {
+    display: inline-block;
+vertical-align: middle;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+  }
+  
+  nav ul li a:hover {
+    background-color: darkgrey;
+    border-radius: 4px;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-weight: 900;
+    text-align: center;
+}
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid cornsilk;
+    border-radius: 4px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #555;
+  }
+
+footer {
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  aside {
+    float: right;
+    width: 25%;
+    text-align: left;
+}
+.clear {
+ clear: both;
+
+}
+nav {
+  border: 1px solid #000;
+  border-radius: 9px;
+  text-align: right;
+  background-color: #fff;
+  padding: 0px 15px;
+}
+aside h2 {
+  text-align: center;
+}
+.content-heading img {
+max-width: 100%;
+
+}
+.content-heading img {
+  max-width: 100%;
+  max-height: 450px;
+}
+main {
+  margin-top: 20px;
+  width: 72%;
+}
+.content-video iframe {
+  height: 400px;
+  width: 100%;
+  display: inline-block;
+}
