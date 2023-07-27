@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div class="main-header">
+    <a href="#" class="logo"><img src="images/Coffee.png" alt="logo"></a>
+    <h1>Coffee Culture</h1>
+        <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+  <div class="container">
+    <aside>
+      <h2>Welcome to coffee culture!</h2>
+      <ul>
+        <li>Arabica</li>
+        <li>Robusta</li>
+        <li>Liberica</li>
+      </ul>
+    </aside>
+    <main>
+      <h2>Contact Us</h2>
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+
+          <label for="employment-status">Employment Status:</label>
+          <select id="employment-status" name="employment-status" required>
+            <option value="">Select Option</option>
+            <option value="student">Student</option>
+            <option value="employed-full-time">Employed Full-time</option>
+            <option value="employed-part-time">Employed Part-time</option>
+            <option value="retired">Retired</option>
+            <option value="other">Other</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>How did you hear about our site?</legend>
+          <label><input type="radio" name="how-heard" value="social-media"> Social Media</label>
+          <label><input type="radio" name="how-heard" value="friend"> Friend</label>
+          <label><input type="radio" name="how-heard" value="search-engine"> Search Engine</label>
+          <label><input type="radio" name="how-heard" value="other"> Other</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Tell Us What You Think!</legend>
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="4"></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Submit</legend>
+          <label>
+            <input type="checkbox" name="not-robot" required> I am not a robot.
+          </label>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </fieldset>
+      </form>
+    </main>
+  </div>
+  <div class="clear"></div>
+
+  <footer>
+    <p>&copy; 2023 Akshar Patel - Student ID: 8885250</p>
+  </footer>
+</body>
+</html>
